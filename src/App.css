@@ -1,3 +1,78 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(15, 1, 1, 0.87);
+  background-color: white;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  font-weight: 500;
+  color: #2196F3; /* Adjusted link color */
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #1976D2; /* Adjusted link hover color */
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #FF5722; /* Adjusted button color */
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+button:hover {
+  border-color: #E64A19; /* Adjusted button hover color */
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto #FF5722; /* Adjusted button focus color */
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #263238; /* Adjusted root color */
+    background-color: #F5F5F5; /* Adjusted background color */
+  }
+
+  a:hover {
+    color: #1565C0; /* Adjusted link hover color in light mode */
+  }
+
+  button {
+    background-color: #E0E0E0; /* Adjusted button color in light mode */
+  }
+}
+
 .mainBody {
   padding: 3vh 2vw;
   display: flex;
@@ -6,15 +81,11 @@
   align-items: center;
 }
 
-.topHeader {
+.topHeader, .header {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-.header {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .topInput {
@@ -33,121 +104,128 @@
   user-select: none;
   max-width: 20vw;
   margin: 5vw auto;
-  border: 1px solid #ffffff22;
-  background-color: #282c34;
-  background: linear-gradient(0deg, #282c34 0%, rgba(17, 0, 32, 0.5) 100%);
-  box-shadow: 0 7px 20px 5px #00000088;
+  border: 1px solid #BDBDBD; /* Adjusted card border color */
+  background-color: #FFFFFF; /* Adjusted card background color */
+  background: linear-gradient(0deg, #FFFFFF 0%, rgba(17, 0, 32, 0.5) 100%); /* Adjusted card gradient */
+  box-shadow: 0 7px 20px 5px #616161; /* Adjusted card shadow color */
   border-radius: 0.7rem;
   backdrop-filter: blur(7px);
   -webkit-backdrop-filter: blur(7px);
   overflow: hidden;
   transition: 0.5s all;
 }
+
 .card hr {
   width: 100%;
   border: none;
-  border-bottom: 1px solid #88888855;
+  border-bottom: 1px solid #757575; /* Adjusted hr color */
   margin-top: 0;
 }
+
 .card ins {
   text-decoration: none;
 }
+
 .card .main {
   display: flex;
   flex-direction: column;
   width: 90%;
   padding: 1rem;
 }
+
 .card .main .avatarImage {
   border-radius: 0.5rem;
   width: 15vw;
   height: 47vh;
   object-fit: cover;
 }
+
 .card .main .description {
   margin: 0.5rem 0;
-  color: #a89ec9;
+  color: #673AB7; /* Adjusted card description color */
 }
+
 .card .main .avatarInfo {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.nft .main .avatarInfo .price {
-  display: flex;
-  align-items: center;
-  color: #ee83e5;
-  font-weight: 700;
-}
-.nft .main .avatarInfo .price ins {
-  margin-left: -0.3rem;
-  margin-right: 0.5rem;
-}
+
+.nft .main .avatarInfo .price,
 .nft .main .avatarInfo .duration {
   display: flex;
   align-items: center;
-  color: #a89ec9;
-  margin-right: 0.2rem;
 }
+
+.nft .main .avatarInfo .price ins,
 .nft .main .avatarInfo .duration ins {
   margin: 0.5rem;
   margin-bottom: 0.4rem;
 }
+
 .nft .main .creator {
   display: flex;
   align-items: center;
   margin-top: 0.2rem;
   margin-bottom: -0.3rem;
 }
+
 .nft .main .creator ins {
-  color: #a89ec9;
+  color: #673AB7; /* Adjusted creator ins color */
   text-decoration: none;
 }
+
 .nft .main .creator .wrapper {
   display: flex;
   align-items: center;
-  border: 1px solid #ffffff22;
+  border: 1px solid #BDBDBD; /* Adjusted creator wrapper border color */
   padding: 0.3rem;
   margin: 0;
   margin-right: 0.5rem;
   border-radius: 100%;
-  box-shadow: inset 0 0 0 4px #000000aa;
+  box-shadow: inset 0 0 0 4px #424242; /* Adjusted creator wrapper shadow color */
 }
+
 .nft .main .creator .wrapper img {
   border-radius: 100%;
-  border: 1px solid #ffffff22;
+  border: 1px solid #BDBDBD; /* Adjusted creator image border color */
   width: 2rem;
   height: 2rem;
   object-fit: cover;
   margin: 0;
 }
-.nft ::before {
+
+.nft::before {
   position: fixed;
   content: "";
-  box-shadow: 0 0 100px 40px #ffffff08;
+  box-shadow: 0 0 100px 40px #FFFFFF; /* Adjusted nft::before shadow color */
   top: -10%;
   left: -100%;
   transform: rotate(-45deg);
   height: 60rem;
   transition: 0.7s all;
 }
+
 .nft:hover {
-  border: 1px solid #ffffff44;
-  box-shadow: 0 7px 50px 10px #000000aa;
+  border: 1px solid #FFFFFF; /* Adjusted nft border color on hover */
+  box-shadow: 0 7px 50px 10px #424242; /* Adjusted nft box shadow on hover */
   transform: scale(1.015);
   filter: brightness(1.3);
 }
-.nft:hover ::before {
+
+.nft:hover::before {
   filter: brightness(0.5);
   top: -100%;
   left: 200%;
 }
+
 .bg {
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
 .bg h1 {
   font-size: 20rem;
   filter: opacity(0.5);
