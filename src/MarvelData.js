@@ -1,95 +1,78 @@
 export const characters = [
-  // Iron Man
+  // Batman
   {
-    name: "Tony Stark",
-    alias: "Iron Man",
-    img1: "https://www.specfictionshop.com/cdn/shop/products/315455127_2253071438203857_6311282012262232749_n_2000x.jpg?v=1669836598",
+    name: "Bruce Wayne",
+    alias: "Batman",
+    img1: "https://i.pinimg.com/564x/56/a6/3a/56a63a1537b997a1e37a3caae6f71450.jpg",
     homeworld: "Earth",
     abilities: [
-      "Genius-level intellect",
-      "Powered armor suit",
-      "Superhuman strength",
+      "Master detective",
+      "Peak human physical condition",
+      "Martial arts expert",
     ],
-    team: "Avengers",
+    team: "Justice League",
     description:
-      "Tony Stark, also known as Iron Man, is a brilliant inventor, philanthropist, and industrialist. He uses his genius-level intellect and a highly advanced powered armor suit to fight for justice and protect the world from various threats. Stark is a charismatic playboy turned superhero who combines his technological prowess with unwavering determination to uphold the values of heroism and innovation.",
-  },
-  {
-    name: "Pepper Potts",
-    alias: "Rescue",
-    abilities: ["Powered armor suit", "Advanced technology skills"],
-    team: "Avengers",
-    img1: "https://i.pinimg.com/originals/5e/fe/55/5efe55d2a7785a311511736a1a37bcbb.jpg",
-    homeworld: "Earth",
-    description:
-      "Pepper Potts, the formidable Rescue, is an accomplished businesswoman and technological genius. She dons a powered armor suit equipped with an array of advanced technology and weaponry, allowing her to stand alongside the Avengers in the battle against supervillains and global threats. Pepper is a determined and fearless heroine with an unwavering commitment to justice.",
-  },
-  {
-    name: "James 'Rhodey' Rhodes",
-    alias: "War Machine",
-    abilities: ["Powered armor suit", "Military expertise"],
-    team: "Avengers",
-    img1: "https://i.pinimg.com/474x/ec/3f/4f/ec3f4f8053892365046fc6cd2f7955eb.jpg",
-    homeworld: "Earth",
-
-    description:
-      "James 'Rhodey' Rhodes, also known as War Machine, is a highly skilled pilot and a military expert. He operates a heavily armed powered armor suit that enhances his strength and combat capabilities. With a strong sense of duty and loyalty to his allies, Rhodey plays a crucial role in the Avengers' efforts to maintain peace and protect the world.",
-  },
-  {
-    name: "Riri Williams",
-    alias: "Ironheart",
-    abilities: ["Powered armor suit", "Genius-level intellect"],
-    team: "Young Avengers",
-    img1: "https://i.pinimg.com/736x/e3/02/9b/e3029b056f1deaf2011d72d0bce0bafa.jpg",
-    homeworld: "Earth",
-
-    description:
-      "Riri Williams, known as Ironheart, is a prodigious young inventor with a genius-level intellect. She has designed her own advanced powered armor suit, which she uses to fight against threats as a member of the Young Avengers. Riri's intelligence, determination, and innovative spirit make her a rising star in the superhero community.",
+      "Bruce Wayne, also known as Batman, is a master detective and martial arts expert. With peak human physical condition and a formidable array of gadgets, he fights crime in Gotham City and is a key member of the Justice League. Driven by a tragic past, Batman is a symbol of justice and relentless determination.",
   },
 
-  // Spider-Man
+  // Wonder Woman
   {
-    name: "Miles Morales",
-    alias: "Spider-Man",
-    abilities: ["Bio-electrokinesis", "Wall-crawling"],
-    team: "Champions",
-    img1: "https://w0.peakpx.com/wallpaper/15/497/HD-wallpaper-marvel-spider-man-marvel-spider-man-game-games.jpg",
-    homeworld: "Earth",
-    img3: "url_to_img3_for_Natasha_Stark",
+    name: "Diana Prince",
+    alias: "Wonder Woman",
+    abilities: ["Superhuman strength", "Lasso of Truth", "Flight"],
+    team: "Justice League",
+    img1: "https://i.pinimg.com/564x/d0/37/93/d037930472af9f7da5fb7a85ac2770ce.jpg",
+    homeworld: "Themyscira",
     description:
-      "Miles Morales, the teenage Spider-Man, has bio-electrokinesis powers, in addition to wall-crawling abilities. As a member of the Champions, Miles embodies the spirit of the Spider-Man legacy, fighting for equality and justice in the Marvel Universe while navigating the challenges of being a young hero.",
+      "Diana Prince, also known as Wonder Woman, is an Amazonian warrior princess with superhuman strength and the ability to fly. Armed with the Lasso of Truth and her warrior skills, she is a symbol of peace and justice. Wonder Woman is a proud member of the Justice League, dedicated to protecting the world from evil forces.",
   },
 
+  // The Flash
   {
-    name: "Cindy Moon",
-    alias: "Silk",
-    abilities: ["Web-shooting", "Superhuman agility"],
-    team: "Agents of Atlas",
-    img1: "https://media-cldnry.s-nbcnews.com/image/upload/newscms/2015_53/894026/silk_1_cover.jpg",
+    name: "Barry Allen",
+    alias: "The Flash",
+    abilities: ["Superhuman speed", "Time manipulation"],
+    team: "Justice League",
+    img1: "https://i.pinimg.com/736x/c6/9a/9b/c69a9bc211d09b0d821f4e26b8fe9349.jpg",
     homeworld: "Earth",
     description:
-      "Cindy Moon, codenamed Silk, is a skilled hero with the power of web-shooting and remarkable superhuman agility. She is an essential member of the Agents of Atlas, using her arachnid-like abilities to combat threats and safeguard the world.",
+      "Barry Allen, also known as The Flash, possesses superhuman speed and the ability to manipulate time. As a forensic scientist, he uses his powers to fight crime and protect the innocent. The Flash is a vital member of the Justice League, bringing speed and wit to the team's efforts to safeguard the world.",
   },
 
+  // Superman
   {
-    name: "Steve Rogers",
-    alias: "Captain America",
-    abilities: ["Peak human strength", "Vibranium shield"],
-    team: "Avengers",
-    img1: "https://w0.peakpx.com/wallpaper/223/397/HD-wallpaper-captain-america-avengers-endgame-captain-america-marvel-marvel-comics-marvel-superheroes-superheroes.jpg",
-    homeworld: "Earth",
+    name: "Clark Kent",
+    alias: "Superman",
+    abilities: ["Superhuman strength", "Flight", "Heat vision"],
+    team: "Justice League",
+    img1: "https://i.pinimg.com/564x/a7/0b/8c/a70b8cc1a74125a7cd7b2920d77a1ed5.jpg",
+    homeworld: "Krypton",
     description:
-      "Steve Rogers, Captain America, is the embodiment of honor and virtue. Enhanced with peak human strength and wielding a Vibranium shield, he stands as a symbol of justice and resilience. Steve's unwavering commitment to the ideals of heroism makes him a cornerstone of the Avengers and the Marvel Universe.",
+      "Clark Kent, known as Superman, is an alien from the planet Krypton with superhuman strength, flight, and heat vision. As the last son of Krypton, he uses his powers to protect Earth as a beacon of hope and justice. Superman is a cornerstone of the Justice League, embodying the ideals of heroism and selflessness.",
   },
+
+  // Green Lantern
   {
-    name: "Sam Wilson",
-    alias: "Falcon",
-    abilities: ["Wingsuit", "Telepathic link with birds"],
-    team: "Avengers",
-    img1: "https://i.pinimg.com/736x/0e/be/ed/0ebeed0c9d6578732a07ca98fee71e22.jpg",
+    name: "Hal Jordan",
+    alias: "Green Lantern",
+    abilities: ["Green Power Ring", "Flight", "Energy constructs"],
+    team: "Green Lantern Corps",
+    img1: "https://i.pinimg.com/564x/81/20/5b/81205b996b7b1daac69a793009c72358.jpg",
     homeworld: "Earth",
     description:
-      "Sam Wilson, the Falcon, soars through the skies with his high-tech wingsuit and possesses a unique telepathic link with birds. As an Avenger, Sam exemplifies freedom, hope, and unity, fighting alongside his fellow heroes to maintain peace and protect the world from impending threats.",
+      "Hal Jordan, also known as Green Lantern, wields the Green Power Ring, granting him the ability to create energy constructs and fly. As a member of the Green Lantern Corps, he patrols the universe, maintaining order and defending against cosmic threats. Hal's willpower and courage make him a formidable protector of the cosmos.",
+  },
+
+  // Aquaman
+  {
+    name: "Arthur Curry",
+    alias: "Aquaman",
+    abilities: ["Superhuman strength", "Underwater adaptation", "Telepathic communication with sea life"],
+    team: "Justice League",
+    img1: "https://i.pinimg.com/564x/53/fa/e2/53fae2fdb55f58b7e54beddc69b996ab.jpg",
+    homeworld: "Atlantis",
+    description:
+      "Arthur Curry, also known as Aquaman, is the king of Atlantis with superhuman strength and the ability to communicate with sea life telepathically. As a member of the Justice League, he defends both the surface world and the ocean depths, ensuring harmony between land and sea. Aquaman is a regal and powerful force for justice.",
   },
 ];
 
