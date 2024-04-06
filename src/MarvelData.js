@@ -67,7 +67,7 @@ export const characters = [
   {
     name: "Arthur Curry",
     alias: "Aquaman",
-    abilities: ["Superhuman strength", "Underwater adaptation", "Telepathic communication with sea life"],
+    abilities: ["Superhuman strength", "Underwater adaptation", "Telepathic communication with Aquatic animals"],
     team: "Justice League",
     img1: "https://i.pinimg.com/564x/53/fa/e2/53fae2fdb55f58b7e54beddc69b996ab.jpg",
     homeworld: "Atlantis",
